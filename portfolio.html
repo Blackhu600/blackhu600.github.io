@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackhu bio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a1a 0%, #1f2d3d 50%, #1a1a1a 100%);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 3px solid #fff;
+        }
+
+        .profile h1 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile p {
+            color: #888;
+            margin-bottom: 1rem;
+        }
+
+        .links {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .link-item {
+            background: #333;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .link-item:hover {
+            transform: scale(1.02);
+            background: #444;
+        }
+
+        .social-icons {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="images.jpg" alt="Profile Picture" class="profile-img">
+        <h1>Blackhu</h1>
+        <p>I LIKE CATS</p>
+    </div>
+
+    <div class="links">
+        <a href="https://discord.com/users/1200890789815926854" class="link-item">Discord</a>
+        <a href="https://www.instagram.com/realblackhu" class="link-item">Instagram</a>
+        <a href="https://www.youtube.com/@realblackhu" class="link-item">Youtube channel</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-discord"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <!-- Font Awesome for social icons -->
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
